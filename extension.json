@@ -1,0 +1,28 @@
+{
+    "name": "Whois",
+    "author": "Petr Kajzar",
+    "url": "https://www.mediawiki.org/wiki/Extension:Whois",
+    "license-name": "CC0-1.0",
+    "version": "1.0.1",
+    "namemsg": "whois",
+    "descriptionmsg": "whois-desc",
+    "requires": {
+        "MediaWiki": ">= 1.29.0"
+    },
+    "MessagesDirs": {
+        "Whois": [ "i18n" ]
+    },
+    "AutoloadClasses": {
+        "SpecialWhois": "specials/SpecialWhois.php",
+        "WhoisHooks": "hooks/WhoisHooks.php",
+        "WhoisIP": "libraries/WhoisIP.class.php"
+    },
+    "SpecialPages": {
+        "Whois": "SpecialWhois"
+    },
+    "Hooks": {
+        "ContributionsToolLinks": "WhoisHooks::addLink"
+    },
+    "type": "specialpage",
+    "manifest_version": 2
+}

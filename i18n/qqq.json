@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Petr Kajzar"
+        ]
+    },
+    "whois": "The name of the extension.",
+    "whois-desc": "Extension description.",
+    "special-whois-title": "Title of the special page Special:Whois.",
+    "special-whois-intro": "Description appearing on top of Special:Whois.",
+    "special-whois-info": "First heading with info about IP address.",
+    "special-whois-report": "Heading for the full WHOIS report",
+    "special-whois-ip": "Label of the IP address.",
+    "special-whois-email": "Label of the contact e-mail address (abuse-mail).",
+    "special-whois-registry": "Label of WHOIS registry.",
+    "special-whois-tool": "Label of WHOIS link in the toolbar.",
+    "special-whois-error": "Error message when no valid IP adress provided."
+}

@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Petr Kajzar"
+        ]
+    },
+    "whois": "Whois",
+    "whois-desc": "Get info about IP address from the WHOIS registry.",
+    "special-whois-title": "Whois",
+    "special-whois-intro": "This tools obtains information about IP address from the WHOIS registries.",
+    "special-whois-info": "Information about",
+    "special-whois-report": "Full WHOIS report from",
+    "special-whois-ip": "IP address",
+    "special-whois-email": "Abuse contact",
+    "special-whois-registry": "WHOIS registry",
+    "special-whois-tool": "get contact to the IP provider",
+    "special-whois-error": "No valid IP address provided."
+}

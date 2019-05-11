@@ -1,0 +1,18 @@
+Changelog
+=========
+
+All notable changes to this project will be documented in this file.
+
+1.0.1 (2019-05-10):
+  - Changed project URLs.
+
+1.0.0 (2019-05-03):
+  - Added CHANGELOG file.
+  - Added help link to MediaWiki.org.
+  - Added link to toolbar at Special:Contributions.
+  - Fixed user permissions: only logged-in users can display the special page.
+
+0.1.0 (2019-05-01):
+  - New extension to obtain basic info about IP address from the WHOIS
+    registries.
+  - Basic extension structure, which can request a WHOIS report via telnet.

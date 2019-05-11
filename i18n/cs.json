@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Petr Kajzar"
+        ]
+    },
+    "whois": "Whois",
+    "whois-desc": "Získejte informace o IP adrese z WHOIS registrů.",
+    "special-whois-title": "Whois",
+    "special-whois-intro": "Tento nástroj umožňuje získat základní informace o IP adrese z WHOIS registrů.",
+    "special-whois-info": "Informace o IP adrese",
+    "special-whois-report": "Kompletní výpis z registru",
+    "special-whois-ip": "IP adresa",
+    "special-whois-email": "Kontakt na poskytovatele IP adresy",
+    "special-whois-registry": "WHOIS registr",
+    "special-whois-tool": "zjistit kontakt na poskytovatele IP adresy",
+    "special-whois-error": "Nebyla zadána platná IP adresa."
+}
