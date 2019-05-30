@@ -4,6 +4,7 @@ Whois: MediaWiki extension
 _The Whois MediaWiki extension adds a special page to obtain basic information
 about an IP address from the WHOIS registries._
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3072958.svg)](https://doi.org/10.5281/zenodo.3072958)
 
 Installation
 -----------
@@ -14,7 +15,7 @@ Installation
 
       wfLoadExtension( 'Whois' );
 
-* Done â€“ Navigate to `Special:Version` on your wiki to verify that
+* Done – Navigate to `Special:Version` on your wiki to verify that
   the extension is successfully installed.
 
 
