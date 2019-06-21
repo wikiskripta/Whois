@@ -15,7 +15,7 @@ Installation
 
       wfLoadExtension( 'Whois' );
 
-* Done – Navigate to `Special:Version` on your wiki to verify that
+* Done ï¿½ Navigate to `Special:Version` on your wiki to verify that
   the extension is successfully installed.
 
 
@@ -56,7 +56,8 @@ to access the `Special:Whois` page.
 License
 -------
 
-Created by Petr Kajzar, 2019. Released under Creative Commons Zero v1.0
+Created by Petr Kajzar, 1st Faculty of Medicine, Charles Univesity,
+Czech Republic, 2019. Released under Creative Commons Zero v1.0
 Universal license.
 
 To the extent possible under law, I have dedicated all copyright and related
