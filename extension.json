@@ -3,11 +3,11 @@
     "author": "Petr Kajzar",
     "url": "https://www.mediawiki.org/wiki/Extension:Whois",
     "license-name": "CC0-1.0",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "namemsg": "whois",
     "descriptionmsg": "whois-desc",
     "requires": {
-        "MediaWiki": ">= 1.29.0"
+        "MediaWiki": ">= 1.32.0"
     },
     "MessagesDirs": {
         "Whois": [ "i18n" ]
