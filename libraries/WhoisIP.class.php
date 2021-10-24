@@ -31,7 +31,7 @@ class WhoisIP {
     if (!$this->getRegistry($this->report)) return false;
     
     /* obtain report from the "home" WHOIS registry */
-    $this->telnetWhois($this->regisry);
+    $this->telnetWhois($this->registry);
     
     /* obtain abuse e-mail address from the report */
     $this->getAbuse();
@@ -52,7 +52,7 @@ class WhoisIP {
   /**
    * Telnet connection with the WHOIS registry
    *
-   * @param string $address URL of the WHOIS regisry
+   * @param string $address URL of the WHOIS registry
    * @param int $port Port of the telnet server (default 43).
    */
   private function telnetWhois($address, $port = 43) {
@@ -85,8 +85,8 @@ class WhoisIP {
   private function getRegistry($iana) {
     
     if (preg_match("/whois\.[\w]*\.net*/i", $iana, $registry)) {
-      $this->regisry = $registry[0];
-      return $this->regisry;
+      $this->registry = $registry[0];
+      return $this->registry;
     } else {
       return false;
     }
@@ -124,7 +124,7 @@ class WhoisIP {
    * @return string WHOIS URL.
    */
   public function registry() {
-    return $this->regisry;
+    return $this->registry;
   }
 
   /**
