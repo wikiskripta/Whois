@@ -13,7 +13,7 @@ Installation
 
       wfLoadExtension( 'Whois' );
 
-* Done � Navigate to `Special:Version` on your wiki to verify that
+* Done. Navigate to `Special:Version` on your wiki to verify that
   the extension is successfully installed.
 
 
