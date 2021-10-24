@@ -43,7 +43,7 @@ class SpecialWhois extends SpecialPage {
     
     // if everything's OK, print a summary report
     $text = $this->buildReport( $ipaddress );
-    $out->addWikiText( $text );
+    $out->addWikiTextAsInterface( $text );
     
 	}
 	
