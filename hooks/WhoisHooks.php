@@ -30,7 +30,7 @@ class WhoisHooks {
     // if the user is logged in
     // and the special page contains an IP address,
     // add a WHOIS tool to the toolbar
-    if ( $user->isLoggedIn() && filter_var($title->getText(), FILTER_VALIDATE_IP)) {
+    if ( $user->isRegistered() && filter_var($title->getText(), FILTER_VALIDATE_IP)) {
       $tools['whois'] = $linker->makeKnownLink(
         SpecialPage::getTitleFor( 'Whois' ),
         $sp->msg( 'special-whois-tool' ),
