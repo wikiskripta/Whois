@@ -22,7 +22,7 @@ class SpecialWhois extends SpecialPage {
 	public function execute( $ipaddress ) {
 	  
 	  // check logged in users
-	  if(!$this->getUser()->isLoggedIn()) {
+	  if(!$this->getUser()->isRegistered()) {
 	    $this->displayRestrictionError();
 	  }
 	  
