@@ -9,6 +9,9 @@
  * @license https://creativecommons.org/publicdomain/zero/1.0/ CC0-1.0
  */
 
+use MediaWiki\SpecialPage\SpecialPage;
+use MediaWiki\Title\Title;
+
 class WhoisHooks {
 
   /**
